@@ -1,8 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-//use App\Classes\Libreria;
-#include ../app/Classes/Libreria.php;
+use App\Classes\Libreria;
 
 class LibreriaTest extends TestCase
 {
