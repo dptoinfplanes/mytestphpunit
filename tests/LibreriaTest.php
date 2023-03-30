@@ -1,7 +1,8 @@
 <?php
+namespace App\Classes;
 
 use PHPUnit\Framework\TestCase;
-use App\Classes\Libreria;
+//use App\Classes\Libreria;
 
 class LibreriaTest extends TestCase
 {
