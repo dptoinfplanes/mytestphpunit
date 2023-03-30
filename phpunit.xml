@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <phpunit bootstrap="./autoload.php" colors="true">
+    <coverage>
+		<include>
+			<directory suffix=".php">/app</directory>
+		</include>
+	</coverage>
     <testsuite name="Test directory">
         <directory>tests</directory>
     </testsuite>
