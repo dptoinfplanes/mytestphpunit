@@ -12,9 +12,10 @@
     "minimum-stability": "stable",
     "require": {
     },
+   
     "autoload": {
-        "psr-4": {
-            "App\\": "app/"
-        }
-    }
+		"psr-4": {
+			"App\\": "app"
+		}
+	},
 }
