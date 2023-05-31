@@ -8,10 +8,13 @@ class Libreria
 
     function factorial($valor)
     {
-        $result = 1;
-        for ($i = 0; $i < $valor; $i++) {
-            $result = $result * $i;
-        }
+
+        if( $valor == 0 || $valor == 1 ) $result = 1;
+        else 
+            $result = 1;
+            for ($i = 1; $i <= $valor; $i++) {
+                $result = $result * $i;
+            }
         return $result;
     }
 }
